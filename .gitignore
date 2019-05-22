@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+__pycache__/
+
+.vscode/
+
+*.RData
+*.Rhistory
+
+*.aux
+*.log
+*.out
