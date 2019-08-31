@@ -1,0 +1,49 @@
+gcc sparse_union.c -o sparse_union -O3
+gcc sparse_element.c -o sparse_element -O3
+gcc dense_element.c -o dense_element -O3
+gcc product_elem_count.c -o product_elem_count -O3
+
+(time ./dense_element < matrixmarket/bcspwr01.txt > result/output/out_01.txt) 2>result/time/time_dense_element_01.txt
+(time ./dense_element < matrixmarket/bcspwr02.txt > result/output/out_02.txt) 2>result/time/time_dense_element_02.txt
+(time ./dense_element < matrixmarket/bcspwr03.txt > result/output/out_03.txt) 2>result/time/time_dense_element_03.txt
+(time ./dense_element < matrixmarket/bcspwr04.txt > result/output/out_04.txt) 2>result/time/time_dense_element_04.txt
+(time ./dense_element < matrixmarket/bcspwr05.txt > result/output/out_05.txt) 2>result/time/time_dense_element_05.txt
+(time ./dense_element < matrixmarket/bcspwr06.txt > result/output/out_06.txt) 2>result/time/time_dense_element_06.txt
+(time ./dense_element < matrixmarket/bcspwr07.txt > result/output/out_07.txt) 2>result/time/time_dense_element_07.txt
+(time ./dense_element < matrixmarket/bcspwr08.txt > result/output/out_08.txt) 2>result/time/time_dense_element_08.txt
+(time ./dense_element < matrixmarket/bcspwr09.txt > result/output/out_09.txt) 2>result/time/time_dense_element_09.txt
+(time ./dense_element < matrixmarket/bcspwr10.txt > result/output/out_10.txt) 2>result/time/time_dense_element_10.txt
+
+(time ./sparse_union < matrixmarket/bcspwr01.txt > result/output/out_01.txt) 2>result/time/time_sparse_union_01.txt
+(time ./sparse_union < matrixmarket/bcspwr02.txt > result/output/out_02.txt) 2>result/time/time_sparse_union_02.txt
+(time ./sparse_union < matrixmarket/bcspwr03.txt > result/output/out_03.txt) 2>result/time/time_sparse_union_03.txt
+(time ./sparse_union < matrixmarket/bcspwr04.txt > result/output/out_04.txt) 2>result/time/time_sparse_union_04.txt
+(time ./sparse_union < matrixmarket/bcspwr05.txt > result/output/out_05.txt) 2>result/time/time_sparse_union_05.txt
+(time ./sparse_union < matrixmarket/bcspwr06.txt > result/output/out_06.txt) 2>result/time/time_sparse_union_06.txt
+(time ./sparse_union < matrixmarket/bcspwr07.txt > result/output/out_07.txt) 2>result/time/time_sparse_union_07.txt
+(time ./sparse_union < matrixmarket/bcspwr08.txt > result/output/out_08.txt) 2>result/time/time_sparse_union_08.txt
+(time ./sparse_union < matrixmarket/bcspwr09.txt > result/output/out_09.txt) 2>result/time/time_sparse_union_09.txt
+(time ./sparse_union < matrixmarket/bcspwr10.txt > result/output/out_10.txt) 2>result/time/time_sparse_union_10.txt
+
+(time ./sparse_element < matrixmarket/bcspwr01.txt > result/output/out_01.txt) 2>result/time/time_sparse_element_01.txt
+(time ./sparse_element < matrixmarket/bcspwr02.txt > result/output/out_02.txt) 2>result/time/time_sparse_element_02.txt
+(time ./sparse_element < matrixmarket/bcspwr03.txt > result/output/out_03.txt) 2>result/time/time_sparse_element_03.txt
+(time ./sparse_element < matrixmarket/bcspwr04.txt > result/output/out_04.txt) 2>result/time/time_sparse_element_04.txt
+(time ./sparse_element < matrixmarket/bcspwr05.txt > result/output/out_05.txt) 2>result/time/time_sparse_element_05.txt
+(time ./sparse_element < matrixmarket/bcspwr06.txt > result/output/out_06.txt) 2>result/time/time_sparse_element_06.txt
+(time ./sparse_element < matrixmarket/bcspwr07.txt > result/output/out_07.txt) 2>result/time/time_sparse_element_07.txt
+(time ./sparse_element < matrixmarket/bcspwr08.txt > result/output/out_08.txt) 2>result/time/time_sparse_element_08.txt
+(time ./sparse_element < matrixmarket/bcspwr09.txt > result/output/out_09.txt) 2>result/time/time_sparse_element_09.txt
+(time ./sparse_element < matrixmarket/bcspwr10.txt > result/output/out_10.txt) 2>result/time/time_sparse_element_10.txt
+
+./product_elem_count < matrixmarket/bcspwr01.txt > result/count/count_01.txt
+./product_elem_count < matrixmarket/bcspwr02.txt > result/count/count_02.txt
+./product_elem_count < matrixmarket/bcspwr03.txt > result/count/count_03.txt
+./product_elem_count < matrixmarket/bcspwr04.txt > result/count/count_04.txt
+./product_elem_count < matrixmarket/bcspwr05.txt > result/count/count_05.txt
+./product_elem_count < matrixmarket/bcspwr06.txt > result/count/count_06.txt
+./product_elem_count < matrixmarket/bcspwr07.txt > result/count/count_07.txt
+./product_elem_count < matrixmarket/bcspwr08.txt > result/count/count_08.txt
+./product_elem_count < matrixmarket/bcspwr09.txt > result/count/count_09.txt
+./product_elem_count < matrixmarket/bcspwr10.txt > result/count/count_10.txt
+

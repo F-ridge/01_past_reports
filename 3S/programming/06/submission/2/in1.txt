@@ -1,0 +1,7 @@
+3
+coffee コーヒー
+milk 牛乳
+water 水
+2
+milk
+sake

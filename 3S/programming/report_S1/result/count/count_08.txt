@@ -1,0 +1,3 @@
+non-zero product num is 16916
+The number of non-zero elements in the original matrix is 6050
+The number of non-zero elements in the squared matrix is 16916

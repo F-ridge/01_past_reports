@@ -1,0 +1,3 @@
+non-zero product num is 15684
+The number of non-zero elements in the original matrix is 5824
+The number of non-zero elements in the squared matrix is 15684

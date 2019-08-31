@@ -1,0 +1,3 @@
+non-zero product num is 403
+The number of non-zero elements in the original matrix is 167
+The number of non-zero elements in the squared matrix is 403

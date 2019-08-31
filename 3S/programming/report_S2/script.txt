@@ -1,0 +1,39 @@
+bash
+
+gcc dp.c -O3 -o dp.out
+gcc dijkstra.c -O3 -o dijkstra.out
+
+(time ./dp.out < data/in00.txt) 2>result/dp_00.txt
+(time ./dp.out < data/in01.txt) 2>result/dp_01.txt
+(time ./dp.out < data/in02.txt) 2>result/dp_02.txt
+(time ./dp.out < data/in03.txt) 2>result/dp_03.txt
+(time ./dp.out < data/in04.txt) 2>result/dp_04.txt
+(time ./dp.out < data/in05.txt) 2>result/dp_05.txt
+(time ./dp.out < data/in06.txt) 2>result/dp_06.txt
+(time ./dp.out < data/in07.txt) 2>result/dp_07.txt
+(time ./dp.out < data/in08.txt) 2>result/dp_08.txt
+(time ./dp.out < data/in09.txt) 2>result/dp_09.txt
+(time ./dp.out < data/in10.txt) 2>result/dp_10.txt
+(time ./dp.out < data/in11.txt) 2>result/dp_11.txt
+(time ./dp.out < data/in12.txt) 2>result/dp_12.txt
+(time ./dp.out < data/in13.txt) 2>result/dp_13.txt
+(time ./dp.out < data/in14.txt) 2>result/dp_14.txt
+(time ./dp.out < data/in15.txt) 2>result/dp_15.txt
+(time ./dp.out < data/in16.txt) 2>result/dp_16.txt
+(time ./dp.out < data/in17.txt) 2>result/dp_17.txt
+(time ./dp.out < data/in18.txt) 2>result/dp_18.txt
+
+(time ./dijkstra.out < data/in00.txt) 2>result/dijkstra_00.txt
+(time ./dijkstra.out < data/in01.txt) 2>result/dijkstra_01.txt
+(time ./dijkstra.out < data/in02.txt) 2>result/dijkstra_02.txt
+(time ./dijkstra.out < data/in03.txt) 2>result/dijkstra_03.txt
+(time ./dijkstra.out < data/in04.txt) 2>result/dijkstra_04.txt
+(time ./dijkstra.out < data/in05.txt) 2>result/dijkstra_05.txt
+(time ./dijkstra.out < data/in06.txt) 2>result/dijkstra_06.txt
+(time ./dijkstra.out < data/in07.txt) 2>result/dijkstra_07.txt
+(time ./dijkstra.out < data/in08.txt) 2>result/dijkstra_08.txt
+(time ./dijkstra.out < data/in09.txt) 2>result/dijkstra_09.txt
+(time ./dijkstra.out < data/in10.txt) 2>result/dijkstra_10.txt
+(time ./dijkstra.out < data/in11.txt) 2>result/dijkstra_11.txt
+(time ./dijkstra.out < data/in12.txt) 2>result/dijkstra_12.txt
+(time ./dijkstra.out < data/in13.txt) 2>result/dijkstra_13.txt

@@ -1,0 +1,3 @@
+non-zero product num is 14110
+The number of non-zero elements in the original matrix is 5300
+The number of non-zero elements in the squared matrix is 14110

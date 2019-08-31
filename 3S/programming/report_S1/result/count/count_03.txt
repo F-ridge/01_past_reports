@@ -1,0 +1,3 @@
+non-zero product num is 1270
+The number of non-zero elements in the original matrix is 476
+The number of non-zero elements in the squared matrix is 1270

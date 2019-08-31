@@ -1,0 +1,3 @@
+non-zero product num is 18485
+The number of non-zero elements in the original matrix is 6511
+The number of non-zero elements in the squared matrix is 18485
